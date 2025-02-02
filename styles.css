@@ -191,19 +191,19 @@ footer a:hover {
 @media (max-width: 600px) {
   .slider {
     flex-direction: column;
-    align-items: center; /* Center the content */
+    align-items: center; 
     width: 100%;
   }
   label {
-    text-align: center; /* Center the label text */
+    text-align: center; 
     width: auto;
     margin-bottom: 5px;
   }
   input[type="range"] {
-    width: 80%; /* Adjust the width for better responsiveness */
+    width: 80%; 
   }
   span {
-    text-align: center; /* Center the value */
+    text-align: center; 
     display: block;
     margin-top: 5px;
   }
@@ -212,19 +212,19 @@ footer a:hover {
 
 @media (max-width: 600px) {
   .button-container {
-    flex-direction: column; /* Stack buttons vertically */
-    align-items: center; /* Center the buttons */
-    gap: 10px; /* Reduce the gap for better spacing */
-    width: 100%; /* Ensure it stays within the container */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    width: 100%; 
   }
 
   button {
-    width: 80%; /* Make buttons responsive */
+    width: 80%; 
     text-align: center;
   }
 
   .input-type-value {
-    width: 80%; /* Adjust input type width */
+    width: 80%; 
     text-align: center;
   }
 }
